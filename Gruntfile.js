@@ -8,7 +8,7 @@ module.exports = function(grunt) {
           event: 'changed',
           spawn: false
         },
-        files: ['src/**/*.php'],
+        files: ['src/*.php', 'test/*.php'],
         tasks: 'shell:phpunit'
       }
     },

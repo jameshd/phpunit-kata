@@ -14,8 +14,8 @@
     },
     "autoload" : {
         "psr-4": {
-            "Kata\\" : "src/main/",
-            "Kata\\Test\\" : "src/test/"
+            "Kata\\" : "src/",
+            "Kata\\Test\\" : "test/"
         }
     }
 }
